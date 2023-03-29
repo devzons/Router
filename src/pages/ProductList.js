@@ -8,8 +8,10 @@ export const ProductList = () => {
   // console.log(location)
 
   return (
-    <div className='component'>
-      <p>ProductList</p>
-    </div>
+    <main>
+      <div className='component'>
+        <p>ProductList</p>
+      </div>
+    </main>
   )
 }

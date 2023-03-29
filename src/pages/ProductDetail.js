@@ -5,8 +5,10 @@ export const ProductDetail = () => {
   console.log(params.id)
 
   return (
-    <div className='component'>
-      <p>ProductDetail - {params.id}</p>
-    </div>
+    <main>
+      <div className='component'>
+        <p>ProductDetail - {params.id}</p>
+      </div>
+    </main>
   )
 }
